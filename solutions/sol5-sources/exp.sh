@@ -1,0 +1,25 @@
+set -x
+python attack.py --round 4 --model xor --npair 32 --niter 10
+python attack.py --round 4 --model xor --npair 64 --niter 10
+python attack.py --round 4 --model xor --npair 128 --niter 10
+python attack.py --round 4 --model xor --npair 256 --niter 10
+python attack.py --round 4 --model hou --npair 32 --niter 10
+python attack.py --round 4 --model hou --npair 64 --niter 10
+python attack.py --round 4 --model hou --npair 128 --niter 10
+python attack.py --round 4 --model hou --npair 256 --niter 10
+python attack.py --round 4 --model ours --npair 32 --niter 10
+python attack.py --round 4 --model ours --npair 64 --niter 10
+python attack.py --round 4 --model ours --npair 128 --niter 10
+python attack.py --round 4 --model ours --npair 256 --niter 10
+python attack.py --round 5 --model xor --npair 32 --niter 10
+python attack.py --round 5 --model xor --npair 64 --niter 10
+python attack.py --round 5 --model xor --npair 128 --niter 10
+python attack.py --round 5 --model xor --npair 256 --niter 10
+python attack.py --round 5 --model hou --npair 32 --niter 10
+python attack.py --round 5 --model hou --npair 64 --niter 10
+python attack.py --round 5 --model hou --npair 128 --niter 10
+python attack.py --round 5 --model hou --npair 256 --niter 10
+python attack.py --round 5 --model ours --npair 32 --niter 10
+python attack.py --round 5 --model ours --npair 64 --niter 10
+python attack.py --round 5 --model ours --npair 128 --niter 10
+python attack.py --round 5 --model ours --npair 256 --niter 10
